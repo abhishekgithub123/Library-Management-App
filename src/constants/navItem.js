@@ -1,0 +1,86 @@
+import {
+  PeopleOutline,
+  Book,
+  Person,
+  AddCircle,
+  ChatBubbleOutline,
+  Home,
+  Payment,
+} from '@mui/icons-material';
+
+const SideBarNavItems = [
+  {
+    id: 1,
+    parentId: 1,
+    title: 'Dashboard',
+    href: '/dashboard',
+    icon: Home,
+    label: 'Dashboard',
+  },
+  {
+    id: 2,
+    parentId: 1,
+    title: 'User Registration',
+    href: '/user-registration',
+    icon: AddCircle,
+    label: 'User Registration',
+  },
+  {
+    id: 3,
+    parentId: 1,
+    title: 'User Management',
+    href: '/user-management',
+    icon: PeopleOutline,
+    label: 'User Management',
+  },
+  {
+    id: 4,
+    parentId: 1,
+    title: 'Attendance',
+    href: '/attendance',
+    icon: Book,
+    label: 'Attendance',
+  },
+  {
+    id: 5,
+    parentId: 1,
+    title: 'Expenses',
+    href: '/expenses',
+    icon: ChatBubbleOutline,
+    label: 'Expenses',
+  },
+  // {
+  //   id: 6,
+  //   parentId: 1,
+  //   title: 'Profile',
+  //   href: '/profile',
+  //   icon: Person,
+  //   label: 'Profile',
+  // },
+  {
+    id: 6,
+    parentId: 1,
+    title: 'Fee Management',
+    href: '/fee-management',
+    icon: Payment,
+    label: 'Fee Management',
+  },
+  {
+    id: 7,
+    parentId: 1,
+    title: 'Subscription',
+    href: '/subscription',
+    icon: Person,
+    label: 'Subscription',
+  },
+  {
+    id: 8,
+    parentId: 1,
+    title: 'Plan Management',
+    href: '/plan-management',
+    icon: Person,
+    label: 'Plan Management',
+  },
+];
+
+export { SideBarNavItems };
